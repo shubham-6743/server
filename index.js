@@ -17,7 +17,7 @@ const corsOptions = {
    credentials: true
 }
 
-//for testing
+// for testing
 // app.get('/', (req, res) => {
 //    res.send('API is working')
 // })
@@ -47,6 +47,9 @@ app.use("/api/v1/tours", tourRoute)
 app.use("/api/v1/users", userRoute)
 app.use("/api/v1/review", reviewRoute)
 app.use("/api/v1/booking", bookingRoute)
+
+// from video
+// to here
 
 app.listen(port, () => {
    connect()
